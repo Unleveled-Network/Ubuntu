@@ -8,7 +8,11 @@ ENV   DEBIAN_FRONTEND noninteractive
 RUN   useradd -m -d /home/container -s /bin/bash container
 
 ## multiverse
-RUN   add-apt-repository multiverse \
+RUN   apt install install software-properties-common
+
+RUN   apt update
+
+RUN   add-apt-repository multiverse
 
 RUN   dpkg --add-architecture i386
 
