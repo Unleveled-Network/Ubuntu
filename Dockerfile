@@ -8,7 +8,7 @@ ENV   DEBIAN_FRONTEND noninteractive
 RUN   useradd -m -d /home/container -s /bin/bash container
 
 ## multiverse
-RUN   apt install install software-properties-common
+RUN   apt install software-properties-common
 
 RUN   apt update
 
