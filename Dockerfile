@@ -1,6 +1,6 @@
 FROM  --platform=$TARGETOS/$TARGETARCH eclipse-temurin:17-jdk-jammy
 
-LABEL author="Gizmo0320" maintainer="Gizmo0320@unleveledgaming.com"
+LABEL author="Gizmo" maintainer="Gizmo0320@unleveledgaming.com"
 
 
 RUN         apt update -y \
